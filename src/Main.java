@@ -10,18 +10,17 @@ public class Main {
         animals.add(new Condor());
         animals.add(new Gato());
         animals.add(new Gorrion());
-        animals.add(new Mamifero());
         animals.add(new Halcon());
-        animals.add(new Pez());
+        animals.add(new Mamifero());
+        animals.add(new Pato());
         animals.add(new Perro());
+        animals.add(new Pez());
         animals.add(new Raton());
         animals.add(new Salmon());
         animals.add(new Sardina());
         animals.add(new Tilapia());
+        animals.add(new Tortuga());
         animals.add(new Trucha());
-
-
-
         for(Animal animal :animals){
             System.out.println(animal.toString());
         }
